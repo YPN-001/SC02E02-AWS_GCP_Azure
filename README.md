@@ -238,3 +238,10 @@ Voici les cinq nuances de Cloud conçues pour répondre aux besoins de flexibili
 
 ---
 
+* **SaaS (Software as a Service) :** Location d'un logiciel prêt à l'emploi. Rien à installer (ex: Microsoft 365).
+* **PaaS (Platform as a Service) :** Plateforme prête à accueillir votre code. Le fournisseur gère la maintenance du serveur.
+* **IaaS (Infrastructure as a Service) :** Location de composants "nus". Vous construisez tout votre système à l'intérieur.
+* **VPS (Virtual Private Server) :** Serveur virtuel privé. Un appartement privé dans un grand immeuble de serveurs : économique et flexible.
+* **On-Premises :** Serveurs physiques installés localement dans vos bureaux (ex: à Lyon).
+
+---

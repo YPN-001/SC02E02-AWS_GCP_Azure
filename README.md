@@ -226,6 +226,69 @@ Voici les cinq nuances de Cloud conçues pour répondre aux besoins de flexibili
 
 ---
 
+---
+
+## Synthèse des Providers : Forces et Faiblesses pour MediCare+
+
+Plutôt que d'imposer un choix unique, voici une analyse des parfums et des aspérités de chaque route possible pour moderniser votre IT.
+
+### 1. Microsoft Azure
+Le choix de la **continuité et du confort**. Pour une structure comme MediCare+ déjà imprégnée de l'univers Windows, Azure est une extension naturelle.
+
+* **Forces :**
+    * **Intégration native :** Liaison parfaite entre les identités (Entra ID) et les outils de travail Microsoft 365.
+    * **Sécurité intégrée :** Les solutions de sauvegarde et de protection (Azure Backup) sont natives et s'activent en quelques clics.
+    * **Écosystème connu :** Moins de dépaysement pour l'administrateur système actuel, facilitant la gestion à mi-temps.
+* **Faiblesses :**
+    * **Coût Premium :** C’est l’une des options les plus onéreuses, pesant lourdement sur le budget annuel.
+    * **Éviction (Lock-in) :** Une fois l'infrastructure totalement imbriquée chez Microsoft, la migration vers un autre fournisseur devient un défi complexe.
+    * **Complexité de l'interface :** La console Azure peut sembler labyrinthique pour des besoins simples de PME.
+
+---
+
+### 2. AWS (Amazon Web Services)
+La **machine de guerre** du Cloud. Idéal si MediCare+ prévoit une croissance technologique forte et a besoin d'une précision chirurgicale.
+
+* **Forces :**
+    * **Granularité totale :** Chaque service peut être configuré au millimètre près selon vos besoins spécifiques.
+    * **Catalogue immense :** Des milliers de services disponibles pour préparer toute croissance future.
+    * **Fiabilité historique :** Une infrastructure éprouvée par les plus grands acteurs mondiaux.
+* **Faiblesses :**
+    * **Complexité technique :** L'interface est "sèche" et demande une expertise pointue, ce qui peut saturer un admin à mi-temps.
+    * **Coûts imprévisibles :** Attention aux frais de transfert de données et de passerelles réseau qui peuvent faire varier la facture mensuelle.
+    * **Accompagnement :** Demande un investissement temps important pour maîtriser les concepts de sécurité propres à Amazon.
+
+---
+
+### 3. Google Cloud (GCP)
+Le Cloud **agile et visionnaire**. C'est l'option de la fluidité, centrée sur la collaboration moderne et l'intelligence des flux.
+
+* **Forces :**
+    * **Simplicité d'usage :** L'interface est sans doute la plus claire et la plus intuitive des géants du Cloud.
+    * **Collaboration reine :** L'écosystème Workspace offre une expérience de travail en temps réel inégalée.
+    * **Tarification incitative :** Remises automatiques pour l'utilisation prolongée des serveurs, sans engagement complexe.
+* **Faiblesses :**
+    * **Héritage Entreprise :** Parfois perçu comme moins complet que Microsoft pour les applications Windows très spécifiques.
+    * **Réseau d'experts :** Moins d'intégrateurs spécialisés disponibles sur le marché français par rapport à Azure.
+
+---
+
+### 4. Solution Mixte / Proxmox (OVHcloud)
+Le choix de la **souveraineté et de l'économie**. On revient à une informatique tactile et locale, très prisée pour la maîtrise des coûts.
+
+* **Forces :**
+    * **Coût imbattable :** On ne paie que le matériel physique, ce qui réduit drastiquement les frais fixes.
+    * **Souveraineté (RGPD) :** Données stockées en France chez un hébergeur européen, simplifiant la conformité.
+    * **Liberté absolue :** Vous n'êtes lié à aucun contrat de licence propriétaire pour l'infrastructure.
+* **Faiblesses :**
+    * **Charge mentale :** L'administrateur est responsable de tout : mises à jour de sécurité, monitoring et pannes matérielles.
+    * **Risque de continuité :** Si l'administrateur quitte l'entreprise, la connaissance de cette installation sur-mesure est difficile à remplacer.
+    * **Résilience manuelle :** La haute disponibilité n'est pas "native" ; elle doit être construite et testée manuellement par vos soins.
+
+---
+
+> **Note du consultant :**
+> Le choix final pour **MediCare+** dépendra de votre priorité absolue : la **tranquillité d'esprit** (Azure), la **souplesse collaborative** (GCP), la **précision industrielle** (AWS) ou la **liberté budgétaire** (Solution Mix). Chaque option possède son propre charme, mais aussi ses propres exigences.
 
 ## 3. Points d'attention (Risques)
 
